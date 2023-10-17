@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pokemonImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@drawable/image" />
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokemon Weight"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/pokemonImage"
+        app:layout_constraintStart_toStartOf="@+id/pokemonImage"
+        app:layout_constraintTop_toBottomOf="@+id/pokemonImage"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/pokemonWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokemon Type"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/pokemonName"
+        app:layout_constraintStart_toStartOf="@+id/pokemonName"
+        app:layout_constraintTop_toBottomOf="@+id/pokemonName"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <Button
+        android:id="@+id/getPokeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get a Pokemon"
+        app:layout_constraintEnd_toEndOf="@+id/pokemonWeight"
+        app:layout_constraintStart_toStartOf="@+id/pokemonWeight"
+        app:layout_constraintTop_toBottomOf="@+id/pokemonWeight"
+        android:layout_marginTop="100dp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="575dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
