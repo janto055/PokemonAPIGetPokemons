@@ -51,12 +51,12 @@ GIF created with **Imgur**
 
 ## Notes
 
-Once again, this project proved to be a very valuable learning experience. In this cause, it proved to be difficult to find an API that was easy to use within the AsyncHTTPClient framework provided. 
+Once again, this project proved to be a very valuable learning experience. In this case, it proved to be difficult to find an API that was easy to use within the AsyncHTTPClient framework provided. 
 As a result, I ended up scratching my plans to build a music app, and stuck with one of the recommended APIs, in this case the PokeAPI. 
 
 The main struggle I encountered was being able to parse through the JSON data, specifically for desplaying the image/sprite associated with the randomly chosen pokemon. For some reason, 
 the JSON response was formatted in a way that made it very difficult to single out a specific image URL. After a few hours of trying, I ended up settling with just removing leading and trailing 
-elements from the pokeImage string so that I would end up with the very first URL of the "strings" JSON. Moving foward, I will look into better ways to get this feature to work, as I would love 
+elements from the pokeImage string so that I would end up with the very first URL of the "sprites" JSON. Moving foward, I will look into better ways to get this feature to work, as I would love 
 to have the front facing sprite be displayed instead. 
 
 ## License
