@@ -71,14 +71,14 @@ limitations under the License.
 
 
 
-## Using the same repo for multiple projects. Below are the READMEs for the previous submissions. 
+# Using the same repo for multiple projects. Below are the READMEs for the previous submissions. 
 
 
 
 
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 5 - Choose Your Own API
+## AND101 Project 5 - Choose Your Own API
 
 Submitted by: **Jaydon Antoine**
 
