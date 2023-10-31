@@ -142,7 +142,7 @@ class PokemonAdapter (
         val nameText: TextView
         val weightText: TextView
         init {
-            // Find our RecyclerView item's ImageView for future use
+            // Find our RecyclerView item's various Views for future use
             pokeImage = view.findViewById(R.id.pokemonImage)
             nameText = view.findViewById(R.id.pokemon_Name)
             weightText = view.findViewById(R.id.pokemon_Weight)
